@@ -1,2 +1,4 @@
-WPImpact-child
+WPImpact-Child
 ==============
+
+Child Theme for WPImpact
