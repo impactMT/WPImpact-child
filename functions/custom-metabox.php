@@ -15,7 +15,6 @@ function cmb_child_metaboxes( array $meta_boxes ) {
 	$prefix = '_cmb_';
 	
 
-
 	// Add other metaboxes as needed
 
 	return $meta_boxes;

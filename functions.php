@@ -46,4 +46,69 @@ include( get_stylesheet_directory(). '/functions/custom-metabox.php' );
 include( get_stylesheet_directory(). '/functions/meta-information.php' ); 
 
 
+/* ---------------------------------------------------------------------- */
+/*	SCHNOZWEB SILVER - Load Custom Functions in Functions Folder
+/* ---------------------------------------------------------------------- */
+
+/* NEWS - hide for this package */
+// Removes 'News'
+//function remove_news() {
+//	remove_menu_page('edit.php');
+//}
+//add_action( 'admin_menu', 'remove_news' );
+
+
+/* Taxonomies */
+//include( TEMPLATEPATH  . '/functions/schnozWeb/silver/custom-taxonomies.php' );
+
+/* Post Types */
+//include( TEMPLATEPATH  . '/functions/schnozWeb/silver/custom-post-types.php' );
+
+/* Meta Boxes */
+//include( TEMPLATEPATH  . '/functions/schnozWeb/silver/custom-metabox.php' );
+
+/* ---------------------------------------------------------------------- */
+/*	SCHNOZWEB GOLD - Load Custom Functions in Functions Folder
+/* ---------------------------------------------------------------------- */
+
+/* NEWS - hide for this package */
+// Removes 'News'
+//function remove_news() {
+//	remove_menu_page('edit.php');
+//}
+//add_action( 'admin_menu', 'remove_news' );
+
+
+/* Taxonomies */
+//include( TEMPLATEPATH  . '/functions/schnozWeb/gold/custom-taxonomies.php' );
+
+/* Post Types */
+//include( TEMPLATEPATH  . '/functions/schnozWeb/gold/custom-post-types.php' );
+
+/* Meta Boxes */
+//include( TEMPLATEPATH  . '/functions/schnozWeb/gold/custom-metabox.php' );
+
+// Enqueue Admin Scripts
+//wp_enqueue_script( 'term-metabox', get_template_directory_uri() . '/functions/schnozWeb/gold/js/term-metabox.js', array(), '1.0', true );
+
+
+/* ---------------------------------------------------------------------- */
+/*	SCHNOZWEB PLATINUM - Load Custom Functions in Functions Folder
+/* ---------------------------------------------------------------------- */
+
+/* Taxonomies */
+include( TEMPLATEPATH  . '/functions/schnozWeb/platinum/custom-taxonomies.php' );
+
+/* Post Types */
+include( TEMPLATEPATH  . '/functions/schnozWeb/platinum/custom-post-types.php' );
+
+/* Meta Boxes */
+include( TEMPLATEPATH  . '/functions/schnozWeb/platinum/custom-metabox.php' );
+
+/* EMR Portal Link */
+include( TEMPLATEPATH  . '/functions/schnozWeb/emr-portal-link.php' );
+
+// Enqueue Admin Scripts
+wp_enqueue_script( 'term-metabox', get_template_directory_uri() . '/functions/schnozWeb/platinum/js/term-metabox.js', array(), '1.0', true );
+
 ?>
